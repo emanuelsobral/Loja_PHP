@@ -175,6 +175,7 @@ input { /*Remove background white of input and fill the space*/
 
 .input p{ /*Spae into p and input in register*/
     margin-bottom: 2px;
+    font-weight: bold;
 }
 
 .input input{ /*Style in input form*/
