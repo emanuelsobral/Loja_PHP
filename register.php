@@ -16,7 +16,24 @@
             <a class="employer" href="./index.php"><i class="fas fa-angle-double-left"></i></a>
         </div>
 
+
         <h2>Registrar</h2>
+
+        <div class="alerts">
+            <div class="error_alert">
+                <p>
+                        <i class="fas fa-ban"></i> <!--Icon link-->
+                        Usuario ou Senha erradados
+                </p>
+            </div>
+
+            <div class="sucess_alert">
+                <p>
+                        <i class="fas fa-check"></i> <!--Icon link-->
+                        Usuario cadastrado com sucesso
+                </p>
+            </div>
+        </div>
 
         <form action=""> <!--name-->
             <div class="input">
@@ -38,25 +55,9 @@
                 <div class="linha"></div>
             </div>
 
-
-
             <div class="footer"> <!--Footer class--> <!--Error alert-->
 
             <input type="submit" value="Registrar"> <!--Submit-->
-
-                <div class="error_alert">
-                    <p>
-                        <i class="fas fa-ban"></i> <!--Icon link-->
-                        Usuario ou Senha erradados
-                    </p>
-                </div>
-
-                <div class="sucess_alert">
-                    <p>
-                        <i class="fas fa-check"></i> <!--Icon link-->
-                        Usuario cadastrado com sucesso
-                    </p>
-                </div>
 
             </div>
 

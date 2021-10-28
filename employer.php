@@ -18,6 +18,15 @@
 
         <h2>Login Funcionario</h2>
 
+        <div class="alerts">
+            <div class="error_alert">
+                <p>
+                        <i class="fas fa-ban"></i> <!--Icon link-->
+                        Usuario ou Senha erradados
+                </p>
+            </div>
+        </div>    
+
         <form action=""> <!--username-->
             <div class="input">
                 <input type="text" name="user" id="user" placeholder="Escreva seu usuario" pattern="^[a-zA-Z0-9_]+$">
@@ -30,17 +39,6 @@
             </div>
 
             <input type="submit" value="Login"> <!--Submit-->
-
-            <div class="footer"> <!--Footer class--> <!--Error alert-->
-
-                <div class="error_alert">
-                    <p>
-                        <i class="fas fa-ban"></i> <!--Icon link-->
-                        Usuario ou Senha erradados
-                    </p>
-                </div>
-
-            </div>
 
         </form>
     </main>
