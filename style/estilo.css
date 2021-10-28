@@ -20,11 +20,15 @@ body{
     justify-content: center;
 }
 
-main.container{ /*White box*/
+/*White box*/
+
+main.container{ 
     background: white;
     max-width: 350px;
     min-height: 40vh;
     padding: 4%;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
     box-shadow: 5px 5px 15px black;
     border-radius: 8px;
 }
@@ -128,6 +132,28 @@ form .input{ /*Space into form*/
     left: 0;
     background: #3E065F;
 }
+
+input { /*Remove background white of input and fill the space*/
+    background-color: transparent;
+    width: 100%;
+}
+
+::-webkit-input-placeholder { /*change color of placeholder and tje weight*/
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+ }
+ :-moz-placeholder { 
+   color: rgb(0, 0, 0);
+   font-weight: 500;
+ }
+ ::-moz-placeholder { 
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+ }
+ :-ms-input-placeholder { 
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+ }
 
 .input .linha::after{ /*Animation in underline*/
     content: '';
