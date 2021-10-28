@@ -10,7 +10,7 @@
 
 body{
     /*background: #3E065F;*/
-    background-image: url(https://wallpapercave.com/wp/wp8969147.png); /*Place Holder IMG*/
+    background-image: url(https://wallpapercave.com/wp/wp2003012.jpg); /*Place Holder IMG*/
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 100vh;
@@ -27,8 +27,8 @@ main.container{  /*White box*/
     min-height: 30vh;
     padding: 4%;
     background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(10px);
-    box-shadow: 5px 5px 15px black;
+    backdrop-filter: blur(6px);
+    box-shadow: 15px 15px 25px black;
     border-radius: 8px;
 }
 
