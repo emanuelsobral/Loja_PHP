@@ -105,7 +105,7 @@ form .input{ /*Space into form*/
 }
 
 .input p{ /*Spae into p and input in register*/
-    margin-bottom: 0.5rem;
+    margin-bottom: 2px;
 }
 
 .input input{ /*Style in input form*/
