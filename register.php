@@ -53,8 +53,8 @@
 
                 <div class="sucess_alert">
                     <p>
-                        <i class="fas fa-ban"></i> <!--Icon link-->
-                        Usuario ou Senha erradados
+                        <i class="fas fa-check"></i> <!--Icon link-->
+                        Usuario cadastrado com sucesso
                     </p>
                 </div>
 

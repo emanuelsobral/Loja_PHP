@@ -114,8 +114,7 @@ form .input{ /*Space into form*/
 }
 
 form input[type="submit"]{ /*Style button form*/
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /*margin-top: 1rem;*/
     padding: 0.5rem;
     background: #700B97;
     cursor: pointer;
@@ -132,8 +131,8 @@ form input[type="submit"]:hover { /*Animation button form*/
 }
 
 .register{ /*Register a button style*/
-    margin-bottom: 1.5rem;
-    padding: 0.4rem;
+    /*margin-bottom: 1.5rem;*/
+    /*padding: 0.4rem;*/
     border-radius: 8px;
     font-size: 1rem;
     background: #700B97;
@@ -168,6 +167,14 @@ form input[type="submit"]:hover { /*Animation button form*/
     padding: 0.5rem;
 }
 
+.footer .error_alert p { /*color of alerts change to white*/
+    color: white;
+}
+
+.footer .sucess_alert p { /*color of alerts change to white*/
+    color: white;
+}
+
 .footer .sucess_alert{ /*sucess alert style*/
     margin-top: 1rem;
     padding: 0.4rem;
@@ -178,6 +185,11 @@ form input[type="submit"]:hover { /*Animation button form*/
 }
 
 .footer .error_alert p i { /*Space into icon and letter */
+    margin: 0 0.4rem;
+    width: 15px;
+}
+
+.footer .sucess_alert p i { /*Space into icon and letter */
     margin: 0 0.4rem;
     width: 15px;
 }
