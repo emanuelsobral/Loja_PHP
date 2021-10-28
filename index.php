@@ -29,12 +29,12 @@
 
         <form action=""> <!--username-->
             <div class="input">
-                <input type="text" name="user" id="user" placeholder="Escreva seu usuario" pattern="^[a-zA-Z0-9_]+$">
+                <input type="text" name="user" id="user" placeholder="Escreva seu usuario" pattern="^[a-zA-Z0-9_]+$" required>
                 <div class="linha"></div>
             </div>
 
             <div class="input"> <!--passord-->
-                <input type="password" name="password" id="password" placeholder="Escreva sua senha">
+                <input type="password" name="password" id="password" placeholder="Escreva sua senha" required>
                 <div class="linha"></div>
             </div>
 
