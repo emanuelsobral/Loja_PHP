@@ -114,7 +114,7 @@ form .input{ /*Space into form*/
 }
 
 form input[type="submit"]{ /*Style button form*/
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0.5rem;
     background: #700B97;
     cursor: pointer;
