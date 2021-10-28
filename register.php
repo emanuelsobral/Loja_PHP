@@ -45,7 +45,7 @@
         <form action=""> <!--username-->
             <div class="input">
                 <p>Digite seu nome de usuario</p>
-                <input type="text" name="user" id="user" placeholder="Escreva seu usuario" required pattern="^[a-zA-Z0-9_]+$" required>
+                <input type="text" name="username" id="username" placeholder="Escreva seu usuario" required pattern="^[a-zA-Z0-9_]+$" required>
                 <div class="linha"></div>
             </div>
 

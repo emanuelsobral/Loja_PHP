@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -18,6 +22,9 @@
 
         <h2>Login</h2>
 
+        <?php
+        if(isset($_SESSION['unauthenticated'])):
+        ?>
         <div class="alerts">
             <div class="error_alert">
                 <p>
@@ -25,11 +32,15 @@
                         Usuario ou Senha erradados
                 </p>
             </div>
+        <?php
+        endif;
+        unset($_SESSION['unauthenticated']);
+        ?>
         </div>
 
-        <form action=""> <!--username-->
+        <form action="login.php" method="POST"> <!--username-->
             <div class="input">
-                <input type="text" name="user" id="user" placeholder="Escreva seu usuario" pattern="^[a-zA-Z0-9_]+$" required>
+                <input type="text" name="username" id="username" placeholder="Escreva seu usuario" pattern="^[a-zA-Z0-9_]+$" required>
                 <div class="linha"></div>
             </div>
 

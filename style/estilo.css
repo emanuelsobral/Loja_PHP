@@ -20,10 +20,9 @@ body{
     justify-content: center;
 }
 
-/*White box*/
-
-main.container{ 
+main.container{  /*White box*/
     background: white;
+    min-width: 40vh;
     max-width: 350px;
     min-height: 40vh;
     padding: 4%;
@@ -51,7 +50,7 @@ main.container{
 
 main h2{ /*Tittle h2 style*/
     font-weight: 600;
-    /*margin-bottom: 15%;*/
+    margin-bottom: 1rem;
     position: relative;
 }
 
