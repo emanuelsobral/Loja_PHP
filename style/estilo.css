@@ -24,7 +24,7 @@ main.container{  /*White box*/
     background: white;
     min-width: 40vh;
     max-width: 350px;
-    min-height: 40vh;
+    min-height: 30vh;
     padding: 4%;
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(10px);
