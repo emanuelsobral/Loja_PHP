@@ -38,13 +38,28 @@
                 <div class="linha"></div>
             </div>
 
-            <div class="input"> <!--passord-->
-                <p>Digite a mesma senha novamente</p>
-                <input type="password" name="password" id="password" placeholder="Escreva sua senha" required>
-                <div class="linha"></div>
-            </div>
+
+
+            <div class="footer"> <!--Footer class--> <!--Error alert-->
 
             <input type="submit" value="Registrar"> <!--Submit-->
+
+                <div class="error_alert">
+                    <p>
+                        <i class="fas fa-ban"></i> <!--Icon link-->
+                        Usuario ou Senha erradados
+                    </p>
+                </div>
+
+                <div class="sucess_alert">
+                    <p>
+                        <i class="fas fa-ban"></i> <!--Icon link-->
+                        Usuario ou Senha erradados
+                    </p>
+                </div>
+
+            </div>
+
 
         </form>
     </main>

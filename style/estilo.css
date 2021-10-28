@@ -115,6 +115,7 @@ form .input{ /*Space into form*/
 
 form input[type="submit"]{ /*Style button form*/
     margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 0.5rem;
     background: #700B97;
     cursor: pointer;
@@ -159,10 +160,20 @@ form input[type="submit"]:hover { /*Animation button form*/
 }
 
 .footer .error_alert{ /*Erro alert style*/
+    margin-top: 1rem;
     padding: 0.4rem;
     border-radius: 8px;
     font-size: 1rem;
     background: #FF0000;
+    padding: 0.5rem;
+}
+
+.footer .sucess_alert{ /*sucess alert style*/
+    margin-top: 1rem;
+    padding: 0.4rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #228c22;
     padding: 0.5rem;
 }
 
