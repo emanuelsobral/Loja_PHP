@@ -38,14 +38,16 @@
         <form action=""> <!--name-->
             <div class="input">
                 <p>Digite seu nome</p>
-                <input type="text" name="name" id="name" placeholder="Escreva seu nome completo" pattern="^[a-zA-Z0-9]+$" required>
+                <input type="text" name="name" id="name" placeholder="Escreva seu nome completo" pattern="^[a-zA-Z0-9]+$" autocomplete="off"
+ required>
                 <div class="linha"></div>
             </div>
 
         <form action=""> <!--username-->
             <div class="input">
                 <p>Digite seu nome de usuario</p>
-                <input type="text" name="username" id="username" placeholder="Escreva seu usuario" required pattern="^[a-zA-Z0-9_]+$" required>
+                <input type="text" name="username" id="username" placeholder="Escreva seu usuario" required pattern="^[a-zA-Z0-9_]+$" autocomplete="off"
+ required>
                 <div class="linha"></div>
             </div>
 

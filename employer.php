@@ -41,7 +41,8 @@ session_start();
 
         <form action="login_employer.php" method="POST"> <!--username-->
             <div class="input">
-                <input type="text" name="username" id="username" placeholder="Escreva seu usuario" pattern="^[a-zA-Z0-9_]+$" required>
+                <input type="text" name="username" id="username" placeholder="Escreva seu usuario" pattern="^[a-zA-Z0-9_]+$" autocomplete="off"
+ required>
                 <div class="linha"></div>
             </div>
 

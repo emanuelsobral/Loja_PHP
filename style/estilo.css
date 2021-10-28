@@ -161,9 +161,9 @@ input { /*Remove background white of input and fill the space*/
     width: 100%;
     bottom: -5px;
     left: 0;
-    background: #8E05C2;
+    background: #9C19E0;
     transform: scaleX(0);
-    transition: all .5s ease-in-out;
+    transition: all 1s ease-in-out;
     transform-origin: left;
 }
 
