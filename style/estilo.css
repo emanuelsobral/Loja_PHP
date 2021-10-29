@@ -41,7 +41,7 @@ main.container{  /*White box*/
 .employer i{ /*Style icon change user and back icon*/
     font-size: 2rem;
     transition: all 0.5s ease;
-    color: #3E065F;
+    color: #700B97;
 }
 
 .employer i:hover{ /*Color animation*/
