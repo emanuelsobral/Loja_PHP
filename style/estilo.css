@@ -45,7 +45,7 @@ main.container{  /*White box*/
 }
 
 .employer i:hover{ /*Color animation*/
-    color: #8E05C2;
+    color: #9C19E0;
 }
 
 main h2{ /*Tittle h2 style*/
@@ -163,7 +163,7 @@ input { /*Remove background white of input and fill the space*/
     left: 0;
     background: #9C19E0;
     transform: scaleX(0);
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
     transform-origin: left;
 }
 
@@ -196,7 +196,7 @@ form input[type="submit"]{ /*Style button form*/
 
 form input[type="submit"]:hover { /*Animation button form*/
     letter-spacing: 1px;
-    background: #8E05C2;
+    background: #9C19E0;
 }
 
 .register{ /*Register a button style*/
@@ -211,7 +211,7 @@ form input[type="submit"]:hover { /*Animation button form*/
 
 .register:hover{ /*Register a button animation*/
     letter-spacing: 1px;
-    background: #8E05C2;
+    background: #9C19E0;
 }
 
 .register a{ /*Color font in a button register*/
