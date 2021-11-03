@@ -1,27 +1,68 @@
 <?php
 session_start();
-include("connection.php");
+?>
 
-if(empty($_POST['username']) || empty($_POST['password'])) {
-    header('Location: index.php');
-    exit();
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3e7f944be8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/estilo.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <main class="container"> <!--Main-->
 
-$username = mysqli_real_escape_string($connection,$_POST['username']);
-$password = mysqli_real_escape_string($connection,$_POST['password']);
+        <div class="change">
+            <a class="employer" href="./employer.php"><i class="fas fa-user-tie"></i></a>
+        </div>
 
-$query = "select user_id, username from user where username = '{$username}' and password = md5('{$password}')";
+        <h2>Login</h2>
 
-$result = mysqli_query($connection, $query);
+        <?php
+        if(isset($_SESSION['unauthenticated'])):
+        ?>
+        <div class="alerts">
+            <div class="error_alert">
+                <p>
+                        <i class="fas fa-ban"></i> <!--Icon link-->
+                        Usuario ou Senha erradados
+                </p>
+            </div>
+        <?php
+        endif;
+        unset($_SESSION['unauthenticated']);
+        ?>
+        </div>
 
-$row = mysqli_num_rows($result);
+        <form action="login_back.php" method="POST"> <!--username-->
+            <div class="input">
+                <input type="text" name="username" id="username" placeholder="Escreva seu usuario" pattern="^[a-zA-Z0-9_]+$" autocomplete="off"
+ required>
+                <div class="linha"></div>
+            </div>
 
-if($row == 1) {
-    $_SESSION['username'] = $username;
-    header('Location: store.php');
-    exit();
-} else {
-    $_SESSION['unauthenticated'] = true;
-    header('Location: index.php');
-    exit();
-}
+            <div class="input"> <!--passord-->
+                <input type="password" name="password" id="password" placeholder="Escreva sua senha" required>
+                <div class="linha"></div>
+            </div>
+
+            <input type="submit" value="Login"> <!--Submit-->
+
+            <div class="footer"> <!--Footer class--> <!--Error alert-->
+
+                <div class="register">
+                    <a href="./register.php">
+                        Registrar
+                    </a>
+                </div>
+
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <form action=""> <!--name-->
+        <form action="register_back.php"> <!--name-->
             <div class="input">
                 <p>Digite seu nome</p>
                 <input type="text" name="name" id="name" placeholder="Escreva seu nome completo" pattern="^[a-zA-Z0-9]+$" autocomplete="off"
@@ -43,8 +43,7 @@
                 <div class="linha"></div>
             </div>
 
-        <form action=""> <!--username-->
-            <div class="input">
+            <div class="input">  <!--username-->
                 <p>Digite seu nome de usuario</p>
                 <input type="text" name="username" id="username" placeholder="Escreva seu usuario" required pattern="^[a-zA-Z0-9_]+$" autocomplete="off"
  required>
@@ -63,8 +62,8 @@
 
             </div>
 
-
         </form>
+
     </main>
 </body>
 </html>
