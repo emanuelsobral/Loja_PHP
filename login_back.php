@@ -18,10 +18,10 @@ $row = mysqli_num_rows($result);
 
 if($row == 1) {
     $_SESSION['username'] = $username;
-    header('Location: store.php');
+    header('Location: index.php');
     exit();
 } else {
     $_SESSION['unauthenticated'] = true;
-    header('Location: index.php');
+    header('Location: login.php');
     exit();
 }
