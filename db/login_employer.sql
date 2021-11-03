@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 -- MySQL dump 10.13  Distrib 8.0.26, for Win64 (x86_64)
 --
 -- Host: localhost    Database: login
 -- ------------------------------------------------------
 -- Server version	8.0.26
+=======
+-- MySQL dump 10.13  Distrib 8.0.27, for Linux (x86_64)
+--
+-- Host: localhost    Database: login
+-- ------------------------------------------------------
+-- Server version	8.0.27-0ubuntu0.20.04.1
+>>>>>>> ab74d15bd334889012e3624912fd2553ef3d8f41
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -26,7 +34,11 @@ CREATE TABLE `employer` (
   `employer_id` int NOT NULL AUTO_INCREMENT,
   `user` varchar(200) NOT NULL,
   `username` varchar(32) NOT NULL,
+<<<<<<< HEAD
   `password` varchar(32) NOT NULL,
+=======
+  `password` varchar(323) NOT NULL,
+>>>>>>> ab74d15bd334889012e3624912fd2553ef3d8f41
   PRIMARY KEY (`employer_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -37,7 +49,11 @@ CREATE TABLE `employer` (
 
 LOCK TABLES `employer` WRITE;
 /*!40000 ALTER TABLE `employer` DISABLE KEYS */;
+<<<<<<< HEAD
 INSERT INTO `employer` VALUES (1,'Emanuel Souza Sobral','Noels','7df4935f4a5a2865191ef74f64df8754');
+=======
+INSERT INTO `employer` VALUES (1,'Emanuel souza sobral','Noels','7df4935f4a5a2865191ef74f64df8754');
+>>>>>>> ab74d15bd334889012e3624912fd2553ef3d8f41
 /*!40000 ALTER TABLE `employer` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +66,8 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+<<<<<<< HEAD
 -- Dump completed on 2021-10-28 16:11:48
+=======
+-- Dump completed on 2021-10-28 19:35:50
+>>>>>>> ab74d15bd334889012e3624912fd2553ef3d8f41
