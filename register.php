@@ -1,3 +1,7 @@
+<?php
+session_start();
+error_reporting (E_ALL ^ E_NOTICE); /*The famous GAMBIARRAAAAAA*/
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -20,25 +24,39 @@
         <h2>Registrar</h2>
 
         <div class="alerts">
+            <?php
+            if($_SESSION['user_exist']):
+            ?>
             <div class="error_alert">
                 <p>
-                        <i class="fas fa-ban"></i> <!--Icon link-->
-                        Usuario ou Senha erradados
+                    <i class="fas fa-ban"></i> <!--Icon link-->
+                    Usuario já cadastrado, tente novamente
                 </p>
             </div>
+            <?php
+            endif;
+            unset($_SESSION['user_exist']);
+            ?>
 
+            <?php
+            if($_SESSION['status_register']):
+            ?>
             <div class="sucess_alert">
                 <p>
-                        <i class="fas fa-check"></i> <!--Icon link-->
-                        Usuario cadastrado com sucesso
+                    <i class="fas fa-check"></i> <!--Icon link-->
+                    Usuario cadastrado com sucesso
                 </p>
             </div>
+            <?php
+            endif;
+            unset($_SESSION['status_register']);
+            ?>
         </div>
 
-        <form action="register_back.php"> <!--name-->
-            <div class="input">
+        <form action="register_back.php" method="POST"> 
+            <div class="input"> <!--name-->
                 <p>Digite seu nome</p>
-                <input type="text" name="name" id="name" placeholder="Escreva seu nome completo" pattern="^[a-zA-Z0-9]+$" autocomplete="off"
+                <input type="text" name="name" id="name" placeholder="Escreva seu nome completo" autocomplete="off"
  required>
                 <div class="linha"></div>
             </div>
