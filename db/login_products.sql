@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.26, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.27, for Win64 (x86_64)
 --
 -- Host: localhost    Database: login
 -- ------------------------------------------------------
--- Server version	8.0.26
+-- Server version	8.0.27
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -26,23 +26,16 @@ CREATE TABLE `products` (
   `product_id` int NOT NULL AUTO_INCREMENT,
   `register_name` varchar(200) NOT NULL,
   `bar_code` varchar(60) NOT NULL,
+  `tittle` varchar(45) NOT NULL,
+  `description` varchar(45) NOT NULL,
   `type` varchar(45) NOT NULL,
   `brand` varchar(60) NOT NULL,
-  `description` varchar(45) NOT NULL,
   `color` varchar(45) NOT NULL,
   `print` varchar(3) NOT NULL,
+  `img` varchar(200) NOT NULL,
   PRIMARY KEY (`product_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `products`
---
-
-LOCK TABLES `products` WRITE;
-/*!40000 ALTER TABLE `products` DISABLE KEYS */;
-/*!40000 ALTER TABLE `products` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -53,4 +46,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-11-08 21:35:39
+-- Dump completed on 2021-11-12 22:33:20
