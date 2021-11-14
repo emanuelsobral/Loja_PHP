@@ -17,7 +17,7 @@ session_start();
     <main class="container"> <!--Main-->
 
         <div class="change">
-            <a class="employer" href="./index.php"><i class="fas fa-user"></i></a>
+            <a class="employer" href="./login.php"><i class="fas fa-user"></i></a>
         </div>
 
         <h2>Login Funcionario</h2>

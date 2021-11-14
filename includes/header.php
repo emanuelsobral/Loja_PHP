@@ -39,16 +39,19 @@ error_reporting (E_ALL ^ E_NOTICE ^ E_WARNING);
                 ?>
                 </ul>
 
-                <ul class="navigation">
-                    <a href=""><li>Camisas</li></a>
-                    <a href=""><li>Blusas</li></a>
-                    <a href=""><li>Sapatos</li></a>
-                    <a href=""><li>Calças</li></a>
-                    <a href=""><li>Shorts</li></a>
-                </ul>
-
             </div>
 
         </div>
     </section>
     </header>
+
+    <section class="sub_menu">
+        <div class="center">
+            <i class="fas fa-search"></i>
+            <form action="../../Loja_PHP/index.php" method="POST">
+                <H2>Clothing<span>.</span>Store <span>Busca no nosso Site</span></H2>
+                <input type="text" name="search" placeholder="Insira a pesquisa">
+                <input type="submit" value="Pesquisar">
+            </form>
+        </div>
+    </section>
