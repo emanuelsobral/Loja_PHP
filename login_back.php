@@ -1,9 +1,9 @@
 <?php
 session_start();
-include("connection.php");
+include("connection/connection.php");
 
 if(empty($_POST['username']) || empty($_POST['password'])) {
-    header('Location: index.php');
+    header('Location: /index.php');
     exit();
 }
 

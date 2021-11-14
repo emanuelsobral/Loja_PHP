@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('connection.php');
+include('connection/connection.php');
 
 $name = mysqli_real_escape_string($connection,trim($_POST['name']));
 $username = mysqli_real_escape_string($connection,trim($_POST['username']));

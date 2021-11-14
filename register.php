@@ -1,6 +1,6 @@
 <?php
 session_start();
-error_reporting (E_ALL ^ E_NOTICE); /*The famous GAMBIARRAAAAAA*/
+error_reporting (E_ALL ^ E_NOTICE ^ E_WARNING); /*The famous GAMBIARRAAAAAA*/
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -9,7 +9,7 @@ error_reporting (E_ALL ^ E_NOTICE); /*The famous GAMBIARRAAAAAA*/
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3e7f944be8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/estilo.css">
+    <link rel="stylesheet" href="./style/LoginAndRegister.css">
     <title>Login</title>
 </head>
 <body>

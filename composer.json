@@ -1,0 +1,17 @@
+{
+    "name": "clothing_store",
+    "description": "Criação de uma loja online em php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emanuel Souza Sobral",
+            "email": "emanuelssobral@gmail.com"
+        },
+        {
+            "name": "Bruno",
+            "email": "bruno@gmail.com"
+        }
+    ]
+
+}
