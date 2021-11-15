@@ -168,6 +168,10 @@ section.sub_menu h2{
     color: white;
 }
 
+section form{
+    padding-left: 2%;
+}
+
 section.sub_menu h2>span {
     color: black;
 }
@@ -247,4 +251,45 @@ section.sub_menu input{
 .container .card a:hover{
     background: #700B97;
     border-bottom: 6px solid #3E065F;
+}
+
+/*Footer*/
+
+.w501{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.w502{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+
+.divider{
+    margin: 3.5%;
+}
+
+.footer1{
+    position: absolute;
+    padding: 10px 0;
+    width: 100%;
+    background: #700B97;
+    color: white;
+    text-align: center;
+}
+
+.footer1 a{
+    color: white;
+    text-align: center;
+}
+
+.footer2{
+    position: absolute;
+    width: 100%;
+    background: #3E065F;
+    color: white;
+    text-align: center;
 }

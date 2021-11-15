@@ -18,7 +18,7 @@ error_reporting (E_ALL ^ E_NOTICE ^ E_WARNING);
         <div class="header">
             <div class="inner_header">
                 <div class="logo_container">
-                    <a href=""><h1>Clothing<span>.</span>Store</h1></a>
+                    <a href="#"><h1>Clothing<span>.</span>Store</h1></a>
                 </div>
 
                 <ul class="user_login">
@@ -49,7 +49,7 @@ error_reporting (E_ALL ^ E_NOTICE ^ E_WARNING);
         <div class="center">
             <i class="fas fa-search"></i>
             <form action="../../Loja_PHP/index.php" method="POST">
-                <H2>Clothing<span>.</span>Store <span>Busca no nosso Site</span></H2>
+                <H2>Clothing<span>.</span>Store <span>Busque no nosso estoque</span></H2>
                 <input type="text" name="search" placeholder="Insira a pesquisa">
                 <input type="submit" value="Pesquisar">
             </form>
