@@ -10,7 +10,7 @@ error_reporting (E_ALL ^ E_NOTICE ^ E_WARNING); /*The famous GAMBIARRAAAAAA*/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3e7f944be8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style/LoginAndRegister.css">
-    <title>Login</title>
+    <title>Register User</title>
 </head>
 <body>
     
