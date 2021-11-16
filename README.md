@@ -20,4 +20,4 @@
 
  Infelizmente apos dar refresh na pagina ela volta para a index, e a index não adicionei nenhuma forma de ir para a pag admin por <a>, por isso para voltar para a pagina de admin deve-se ou digitar admin.php no diretorio ou sair e logar dnv como admin.
 
- # COntinuaremos implementando esse projeto como forma de aprendizagem
+ # Continuaremos implementando esse projeto como forma de aprendizagem
