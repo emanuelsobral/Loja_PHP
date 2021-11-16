@@ -146,6 +146,7 @@ section.sub_menu input[type="submit"]{
     text-align: center;
     display: inline-block;
     width: 80px;
+    height: 38px;
     border-bottom: 6px solid #700B97;
     font-size: 14px;
     border-radius: 20px;
@@ -187,6 +188,45 @@ section.sub_menu input{
 
 /*Body*/
 
+
+.new_button{
+    height: 100%;
+    width: 100%;
+    background: white;
+    align-items: center;
+}
+
+.func{
+    float: right;
+    padding: 0.5rem;
+    background: #172774;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 35%;
+}
+
+
+.prodc{
+    float: left;
+    padding: 0.5rem;
+    background: #172774;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 35%;
+}
+
 .container{
     width: 100%;
     max-width: auto;
@@ -210,6 +250,7 @@ section.sub_menu input{
     transition: all 0.25s;
     float: left;
     margin: 2px;
+    margin-bottom: 10px;
     background-color: white;
 }
 
@@ -242,7 +283,6 @@ section.sub_menu input{
     padding: 8px 6px;
     text-align: center;
     display: inline-block;
-
     border-bottom: 6px solid #700B97;
     font-size: 16px;
     border-radius: 30px;
@@ -252,6 +292,33 @@ section.sub_menu input{
     background: #700B97;
     border-bottom: 6px solid #3E065F;
 }
+
+.card form input[type="submit"]{ /*Style button form*/
+    /*margin-top: 1rem;*/
+    padding: 0.5rem;
+    background: #950101;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    margin: 2%;
+}
+
+.card form input[type="submit"]:hover{ /*Style button form*/
+    /*margin-top: 1rem;*/
+    padding: 0.5rem;
+    background: #FF0000;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    margin: 2%;
+}
+
 
 /*Footer*/
 

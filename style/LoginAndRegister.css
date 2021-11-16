@@ -230,3 +230,8 @@ form input[type="submit"]:hover { /*Animation button form*/
     flex-direction: column;
     margin-top: 1rem;
 }
+
+select.selectList { 
+    width: 250px; 
+    background-color: transparent;
+}
