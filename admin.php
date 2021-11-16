@@ -1,7 +1,7 @@
 <?php
-session_start();
 include('check_login_employer.php');
 include('connection/connection.php');
+error_reporting (E_ALL ^ E_NOTICE ^ E_WARNING);
 ?>
 
 <?php include('includes/header.php')?>

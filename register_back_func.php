@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('connection/connection.php');
+include('check_login_employer.php');
 
 $name = mysqli_real_escape_string($connection,trim($_POST['name']));
 $username = mysqli_real_escape_string($connection,trim($_POST['username']));

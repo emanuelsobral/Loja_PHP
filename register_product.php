@@ -1,5 +1,4 @@
 <?php
-session_start();
 error_reporting (E_ALL ^ E_NOTICE ^ E_WARNING); /*The famous GAMBIARRAAAAAA*/
 include('check_login_employer.php');
 ?>
@@ -31,7 +30,7 @@ include('check_login_employer.php');
             <div class="error_alert">
                 <p>
                     <i class="fas fa-ban"></i> <!--Icon link-->
-                    Usuario já cadastrado, tente novamente
+                    Produto Ja Cadastrado
                 </p>
             </div>
             <?php
@@ -45,7 +44,7 @@ include('check_login_employer.php');
             <div class="sucess_alert">
                 <p>
                     <i class="fas fa-check"></i> <!--Icon link-->
-                    Usuario cadastrado com sucesso
+                    Produto cadastrado com sucesso
                 </p>
             </div>
             <?php
@@ -64,7 +63,7 @@ include('check_login_employer.php');
 
             <div class="input">  <!--username-->
                 <p>Digite a descrição do produto</p>
-                <input type="text" name="descriprion" id="descriprion" placeholder="Escreva seu usuario" required pattern="^[a-zA-Z0-9_]+$" autocomplete="off"
+                <input type="text" name="descriprion" id="descriprion" placeholder="Escreva seu usuario" required autocomplete="off"
  required>
                 <div class="linha"></div>
             </div>
@@ -93,24 +92,30 @@ include('check_login_employer.php');
 
             <div class="input">  <!--username-->
                 <p>Digite a marca do produto</p>
-                <input type="text" name="brand" id="brand" placeholder="Escreva seu usuario" required pattern="^[a-zA-Z0-9_]+$" autocomplete="off"
+                <input type="text" name="brand" id="brand" placeholder="Escreva seu usuario" required autocomplete="off"
  required>
                 <div class="linha"></div>
             </div>
 
             <div class="input">  <!--username-->
                 <p>Digite a cor do produto</p>
-                <input type="text" name="color" id="color" placeholder="Escreva seu usuario" required pattern="^[a-zA-Z0-9_]+$" autocomplete="off"
+                <input type="text" name="color" id="color" placeholder="Escreva seu usuario" required autocomplete="off"
  required>
                 <div class="linha"></div>
             </div>
 
             <div class="input">  <!--username-->
                 <p>O produto possui estampa?</p>
-                    <select class="selectList" name="print" id="print">
+                    <select class="selectList" name="print" id="print" required>
                         <option value="SIM">SIM</option>
                         <option value="NAO">NÃO</option>
                     </select>
+            </div>
+
+            <div class="input">  <!--username-->
+                <p>Adicione a Imagem do produto</p>
+                    <input type="file" name="img" id="img" accept="image/jpeg, image/png, image/.jpg">
+                <div class="linha"></div>
             </div>
 
             <div class="footer"> <!--Footer class--> <!--Error alert-->
